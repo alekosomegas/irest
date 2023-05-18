@@ -1,0 +1,8 @@
+1. Sort input to always match format 00 : 00 ok
+2. Add new long time field ok
+3. work, short, work, long cycle ok
+
+4. create break scene
+
+5. check format is correct in every iteration before setting current time
+6. get random pic

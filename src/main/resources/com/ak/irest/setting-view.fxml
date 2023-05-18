@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="p_settings" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="385.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ak.irest.SettingsController">
+   <children>
+      <Button fx:id="btn_start" layoutX="202.0" layoutY="196.0" mnemonicParsing="false" onAction="#onBtnStartClicked" prefHeight="40.0" prefWidth="170.0" text="START!" />
+      <Button fx:id="btn_exit" layoutX="16.0" layoutY="196.0" mnemonicParsing="false" onAction="#onBtnExitClicked" prefHeight="40.0" prefWidth="170.0" text="Exit" />
+      <TextField fx:id="txt_workTimer" alignment="CENTER" layoutX="22.0" layoutY="14.0" prefHeight="51.0" prefWidth="159.0" text="00 : 02">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font></TextField>
+      <TextField fx:id="txt_ShortRestTimer" alignment="CENTER" layoutX="22.0" layoutY="74.0" prefHeight="51.0" prefWidth="159.0" text="01 : 00">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font></TextField>
+      <Label layoutX="209.0" layoutY="27.0" text="Work Timer">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="209.0" layoutY="87.0" text="Short Rest Timer">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <TextField fx:id="txt_LongRestTimer" alignment="CENTER" layoutX="22.0" layoutY="134.0" prefHeight="51.0" prefWidth="159.0" text="01 : 00">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </TextField>
+      <Label layoutX="210.0" layoutY="147.0" text="Long Rest Timer">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
